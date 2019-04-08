@@ -1,7 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
 
-html, body { height: auto;   overflow: hidden;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
-background-color: rgb(43, 43, 43);   background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: center center;  background-size: cover; width: auto;}
+html,
+body {
+  height: auto;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+}
+
+.footer {
+  background-color: rgb(54, 54, 54);
+  height: 30px;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.footercontents {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: middle;
+  margin-top: calc(15px - 0.7em);
+
+}
+
+.header {
+  background-color: rgb(58, 58, 58);
+  height: 45px;
+  width: 100%;
+  padding-top: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nametext{
+  color: white;
+  font-size: 23px;
+  margin-top: 1px;
+  padding-left: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headerimg {
+  height:45px;
+  top: 0%;
+  position: fixed;
+}
